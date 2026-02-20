@@ -27,13 +27,11 @@ The work was carried out as a group project within a Data Processing and Analysi
 - `kp5k.jsonl` – input JSONL file containing the documents.
 - `stopwords.txt` – custom stopword list (one word per line).
 - `test.json` – JSON/JSONL file containing keywords in a `keywords` field.
-- `main.py` (or notebook) – main script with:
+- `main.py` – main script with:
   - file loading
   - preprocessing
   - scoring
   - extraction and printing of top sentences.
-
-Adjust file names and paths to match your local setup.
 
 ---
 
@@ -45,10 +43,3 @@ Adjust file names and paths to match your local setup.
   - `jsonlines`
   - `tqdm`
   - `nltk`
-
-## Files
-
-- `code_Keyword-Extraction.py`: Main script containing the full pipeline: JSONL loading, preprocessing, scoring (TF, keywords, POS patterns) and printing of top sentences per document
-- `kp5k.jsonl`: Input JSON Lines file. Each line is a JSON object representing one document, with a `sents` field that contains a list of sentences or text units.
-- `stopwords.txt`: Text file with custom stopwords, one token per line, used to filter out frequent but uninformative words after stemming/lowercasing.
-- `test.json`: JSON or JSON Lines file containing keyword definitions. Each record includes a `keywords` field (e.g. phrases separated by `;`) used to score sentences by keyword presence.
