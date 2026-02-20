@@ -2,6 +2,7 @@
 
 This project implements a text‑mining pipeline to extract key words and key sentences from documents stored in JSON Lines (`.jsonl`) format. 
 It combines classic preprocessing (lowercasing, cleaning, stemming, stopword removal) with three scoring methods: term frequency, keyword matching and POS‑tag patterns.
+The work was carried out as a group project within a Data Processing and Analysis course.
 
 ---
 
